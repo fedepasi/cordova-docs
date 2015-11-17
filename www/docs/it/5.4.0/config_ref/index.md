@@ -22,7 +22,7 @@ title: Il File config. Xml
 
 # Il File config. Xml
 
-Molti aspetti del comportamento di un'app possono essere controllati con un file di configurazione globale, `config.xml` . Questo file XML indipendente dalla piattaforma è organizzato basato sulla specifica [Confezionato Web Apps (widget)][1] del W3C ed esteso per specificare le caratteristiche di nucleo API di Cordova, plugins e impostazioni specifiche della piattaforma.
+Molti aspetti del comportamento di un'app possono essere controllati con un file di configurazione globale, `config.xml` . Questo file XML indipendente dalla piattaforma è basato sulla specifica [Confezionato Web Apps (widget)][1] W3C estesa per specificare le caratteristiche di nucleo API di Cordova, plugins e impostazioni specifiche della piattaforma.
 
  [1]: http://www.w3.org/TR/widgets/
 
@@ -31,7 +31,7 @@ Per i progetti creati con Cordova CLI (descritto in The Command-Line Interface),
         app/config.xml
     
 
-Si noti che prima versione 3.3.1-0.2.0, il file esisteva a `app/www/config.xml` , e che averlo qui è ancora supportato.
+Si noti che prima versione 3.3.1-0.2.0, il file esisteva all' indirizzo `app/www/config.xml` , e che averlo qui è ancora supportato.
 
 Quando si utilizza la CLI per costruire un progetto, versioni di questo file vengono copiati passivamente in vari `platforms/` sottodirectory, ad esempio:
 
@@ -50,7 +50,7 @@ Oltre le varie opzioni di configurazione descritte di seguito, è possibile conf
 
 ## Elementi di configurazione del nucleo
 
-In questo esempio viene illustrato il valore predefinito `config.xml` generato dal CLI `create` comando, descritto in l'interfaccia della riga di comando:
+In questo esempio viene illustrato il valore predefinito `config.xml` generato dal comando CLI `create`, descritto nell'interfaccia della riga di comando:
 
         <widget id="com.example.hello" version="0.0.1">
             <name>HelloWorld</name>
